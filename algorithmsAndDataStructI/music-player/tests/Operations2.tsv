@@ -1,0 +1,42 @@
+getPlayListsIDs
+getPlayListContent	"Prueba"
+addListOfTunesToPlayList	"Prueba"	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2
+getPlayListContent	"Prueba"
+addListOfTunesToPlayList	"Prueba"	1	3	2	4	5
+getPlayListContent	"Prueba"
+removeTuneFromPlayList	"Prueba"	2
+getPlayListContent	"Prueba"
+getPlayListsIDs
+removePlayList	"Prueba"
+getPlayListsIDs
+addSearchToPlayList	"1974"	""	""	""	""	1974	1974	-1	-1
+getPlayListContent	"1974"
+getPlayListsIDs
+getPlayBackQueue
+addSearchToPlayBackQueue	""	""	""	""	1	1	-1	-1
+getPlayBackQueue
+play
+play
+play
+play
+play
+play
+play
+play
+play
+play
+play
+getPlayBackQueue
+getRecentlyPlayed
+play
+getRecentlyPlayed
+clearPlayBackQueue
+getPlayBackQueue
+play
+getPlayBackQueue
+createPlayList	"Prueba"
+createPlayList	"Prueba"
+getPlayListsIDs
+createPlayList	"Prueba"
+addSearchToPlayList	"Prueba"	""	"aCiD kINg"	""	""	-1	-1	-1	-1
+getPlayListContent	"Prueba"

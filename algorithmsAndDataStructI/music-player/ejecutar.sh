@@ -1,0 +1,1 @@
+java -jar eped2017.jar tests/Repository.tsv tests/Operations.tsv 5 | java -jar tests/comprobador2017.jar tests/Output.txt
